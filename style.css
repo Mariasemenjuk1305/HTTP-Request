@@ -1,0 +1,195 @@
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+}
+
+.what_film {
+    display: flex;
+    justify-content: center;
+}
+
+#enter_film {
+    display: flex;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    padding-left: 5px;
+}
+
+#search {
+    display: flex;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid green;
+    background-color: green;
+    margin: 20px;
+    color: white;
+}
+
+.result {
+    display: none;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.film {
+    width: 260px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: 0 0 20px rgb(177, 175, 207);
+}
+
+.read {
+    width: 260px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+
+#search:hover {
+    border-radius: 5px;
+}
+
+.img_film {
+    width: 260px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.title {
+    height: 40px;
+    background-color: rgb(197, 194, 194);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgb(59, 59, 59);
+    overflow: hidden;
+}
+
+.text {
+    height: 30px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+}
+
+.back_grey {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(59, 59, 59, 0.7);
+    position: fixed;
+    z-index: 1;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+.more {
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+}
+
+.box {
+    width: 95%;
+    height: 95%;
+    margin: 10px auto;
+    display: flex;
+    box-shadow: 0 0 10px rgb(137, 130, 230);
+    border: 1px solid rgb(137, 130, 230);
+}
+
+.poster2 {
+    width: 400px;
+    height: 90%;
+    margin: 40px 10px;
+}
+
+.film_story {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+
+}
+
+#bigTitle {
+    width: 95%;
+    height: 100px;
+    background-color: rgb(137, 130, 230);
+    color: white;
+    display: flex;
+    margin-bottom: 3px;
+    align-items: center;
+    padding: 10px;
+}
+
+#shortStory {
+    display: flex;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+#shortStory {
+    display: flex;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+#bigStory {
+    display: flex;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+#written {
+    float: left;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+#director {
+    float: left;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+#starring {
+    float: left;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+#boxOffice {
+    float: left;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+#awards {
+    float: left;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+#ratings {
+    float: left;
+    color: grey;
+    margin-bottom: 3px;
+}
